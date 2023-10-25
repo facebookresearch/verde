@@ -1,0 +1,8 @@
+{
+    "input_int_base": [105348],
+    "share_token": [64],
+    "optimizer": ["adam_warmup,lr=0.00001,warmup_updates=1000,warmup_init_lr=0.00000001"],
+    "secret_seed": [3],
+    "hamming": [30],
+    "reload_data": ["./preprocessed_data/A_b_n256_logq20/binary"]
+}

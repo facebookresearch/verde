@@ -1,0 +1,17 @@
+{
+    "epoch_size": [10000],
+    "timeout": [432000],
+    "N": [256],
+    "Q": [842779],
+    "lll_penalty": [10],
+    "float_type": ["dd"],
+    "lll_delta": [0.99],
+    "lll_delta2": [0.99],
+    "bkz_block_size": [35],
+    "bkz_block_size2": [40],
+    "threshold2": [0.5],
+    "threshold": [0.435],
+    "use_polish": ["true"],
+    "step": ["RA_tiny2"],
+    "reload_data": ["/path/to/created/lwe_data/orig_A.npy"]
+}

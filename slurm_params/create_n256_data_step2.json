@@ -1,0 +1,11 @@
+{
+    "step": ["Ab"],
+    "min_hamming": [25],
+    "max_hamming": [35],
+    "epoch_size": [1000000],
+    "num_workers": [1],
+    "num_secret_seeds": [100],
+    "reload_data": ["/path/to/preprocessed/data/folder"],
+    "reload_size": [1000000],
+    "secret_type": ["binary"]
+}
