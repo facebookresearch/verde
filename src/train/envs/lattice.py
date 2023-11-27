@@ -1,9 +1,14 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+# 
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 from logging import getLogger
 import numpy as np
 import torch
 
 import src.train.envs.encoders as encoders
-from src.utils import bool_flag
 
 
 SPECIAL_WORDS = ["<eos>", "<pad>", "<mask>"]

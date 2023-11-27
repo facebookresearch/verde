@@ -1,3 +1,9 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+# 
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 import json
 import random
 import argparse
@@ -5,7 +11,6 @@ import numpy as np
 import torch
 import os
 import pickle
-import sys
 
 import src
 from src.slurm import init_signal_handler, init_distributed_mode

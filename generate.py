@@ -1,3 +1,9 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+# 
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 import pickle
 import random
 import argparse
@@ -9,7 +15,7 @@ import logging
 
 from src import utils
 from src.slurm import init_signal_handler, init_distributed_mode
-from src.utils import bool_flag, initialize_exp, timeout, create_logger
+from src.utils import bool_flag, initialize_exp, create_logger
 from src.generate.export import Generator
 from src.generate.genSamples import BKZReducedRLWE, RA_Rb, BenchmarkBKZ
 from multiprocessing import Process, Manager
