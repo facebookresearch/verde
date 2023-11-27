@@ -1,4 +1,4 @@
-This repository contains code to recreate the results from *SALSA VERDE: a machine learning attack on Learning With Errors with sparse small secrets*, which uses transformers to recover secrets from LWE samples ($\mathbf{a}$, $b$).
+This repository contains code to recreate the results from [*SALSA VERDE: a machine learning attack on Learning With Errors with sparse small secrets*](https://arxiv.org/abs/2306.11641), which uses transformers to recover secrets from LWE samples ($\mathbf{a}$, $b$). The code in this repo can also be used to run the attack in [*SALSA PICANTE: a Machine Learning Attack on LWE with Binary Secrets*](https://arxiv.org/abs/2303.04178). The Verde attack strictly supersedes the Picante attack in terms of performance. 
 
 ## Quickstart
 
