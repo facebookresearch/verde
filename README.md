@@ -30,7 +30,8 @@ Although you can vary the parameters as you see fit, the default training parame
   - ```N```: lattice dimension
   - ```Q```: prime modulus for LWE problem
   - ```sigma```: stdev of error distribution used in LWE
-  - ```hamming```: Hamming weight of binary LWE secret
+  - ```secret_type```: The distribution from which secret bits are chosen (code supports binary, ternary, Gaussian, and binomial -- note that full secret recovery is implemented for only binary and ternary secrets)
+  - ```hamming```: Number of nonzero bits in LWE secret
   - ```input_int_base```: integer encoding base for transformer inputs
   - ```output_int_base```: integer encoding base for transformer outputs
 
